@@ -157,5 +157,4 @@ gulp.task('mailer', function () {
       .pipe(browsersync.stream());
 });
 
-
 gulp.task('default', gulp.parallel('watch', "build", "watch1", "html", 'styles', 'icons', 'images', 'fonts', "mailer"));
