@@ -1,7 +1,7 @@
 # Prime Top сайт
 
 Сделай себе клонирование проекта
-- git clone https://github.com/NX144/shop-vesna.git (потом переходишь в эту папку)
+- git clone https://github.com/NX144/prime-top.git (потом переходишь в эту папку)
 
 Установи локальные данные
 - git config --local user.name "имя"
