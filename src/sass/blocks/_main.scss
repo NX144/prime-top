@@ -1,0 +1,57 @@
+main {
+    position: relative;
+    height: 1024px;
+    background: url('../img/bg/gradient/main-gradient_bg.jpg') center (center/cover) no-repeat;
+    .container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 140px;
+    }
+    h1 {
+        font-family: "Evolventa", sans-serif;
+        font-size: 140px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 90%; /* 126px */
+        color: #fff;
+    }
+    p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 144%; /* 23.04px */
+        color: #fff;
+        margin-top: 50px;
+        width: 476px;
+    }
+    .block {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        &__item {
+            margin-bottom: 50px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &_title {
+                font-family: "Evolventa", sans-serif;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 120%; /* 57.6px */
+                letter-spacing: 0.96px;
+                color:#fff;
+            }
+            p {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 120%; /* 16.8px */
+                color: #fff;
+                margin-top: 6px;
+                width: 110px;
+            }
+        }
+    }
+}
