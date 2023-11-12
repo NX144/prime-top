@@ -5,15 +5,20 @@
 // Our Libs
 
 @import "./vars/_colors";
-@import "./libs/_texts";
-@import "./libs/_buttons";
+// @import "./libs/_texts";
+// @import "./libs/_buttons";
+
+@import "./blocks/_header";
+@import "./blocks/_main";
+@import "./blocks/_company";
+@import "./blocks/_directions";
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Evolenta", sans-serif;
+    font-family: "CeraPro", sans-serif;
 
 }
 
